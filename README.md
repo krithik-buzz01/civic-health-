@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+City Pulse Map 🌆
 
-## Project info
+Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+City Pulse Map is a human-developed web application that monitors and visualizes civic health and urban activity in real time.
+The platform helps users understand city conditions such as environment, traffic, and infrastructure through an interactive digital dashboard.
 
-## How can I edit this code?
+Features
 
-There are several ways of editing your application.
+- 📊 Real-time civic health monitoring
+- 🗺️ Interactive city map visualization
+- 📈 Data insights for smarter urban management
+- ⚡ Fast and responsive user interface
 
-**Use Lovable**
+Frontend
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+The frontend is built using modern web technologies to provide a smooth and interactive user experience.
 
-Changes made via Lovable will be committed automatically to this repo.
+Technologies used:
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+- React.js
 - Vite
-- TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- JavaScript / TypeScript
 
-## How can I deploy this project?
+Backend
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+The backend manages data processing and communication between the system and the user interface.
 
-## Can I connect a custom domain to my Lovable project?
+Functions:
 
-Yes, you can!
+- API handling
+- Data processing
+- System integration
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Technologies:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Node.js
+- REST APIs
+
+Scripts
+
+Common development scripts used in this project:
+
+npm install
+npm run dev
+npm run build
+
+These scripts install dependencies, run the development server, and build the project for production.
+
+Author
+
+Developed by Krithik
